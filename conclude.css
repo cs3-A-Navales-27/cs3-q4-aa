@@ -1,0 +1,73 @@
+body {
+    font-family: 'Glacial Indifference', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pop3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    transition: background-image 0.5s ease-in-out;
+}
+
+#navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+#navigationBar a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+#navigationBar a:hover {
+    color: #66ccff;
+}
+
+#content {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 800px;
+    transition: background-color 0.3s;
+}
+
+#whatIs {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+#whatIsDescription {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.method {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.reference a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.reference a:hover {
+    color: #0056b3;
+}

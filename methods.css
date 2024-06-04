@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pop5.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    transition: background-image 0.5s ease-in-out;
+}
+
+#navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#navigationBar a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+#navigationBar a:hover {
+    color: #66ccff;
+}
+
+#content {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+#whatIs {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#whatIsDescription {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.method {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s;
+}
+
+.method:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
